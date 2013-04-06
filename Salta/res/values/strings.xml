@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Il gioco di SALTA PAROLA</string>
+    <string name="hello_world">Il canale che unisce Atlantico al Pacifico</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Nome_bottone_1">INIZIA GIOCO</string>
+    <string name="Nome_bottone_2">PUNTEGGI</string>
+    <string name="title_activity_activity_punteggi">Punteggi migliori</string>
+    <string name="title_activity_inizia_sfida">Inizia sfida</string>
+    <string name="title_activity_tempo_scaduto">Fine partita</string>
+
+    <string-array name="Punteggi">
+        <item> 1° Posto</item>
+        <item> 2° Posto</item>
+        <item> 3° Posto</item>
+        <item> 4° Posto</item>
+        <item> 5° Posto</item>
+        <item> 6° Posto</item>
+        <item> 7° Posto</item>
+        <item> 8° Posto</item>
+        <item> 9° Posto</item>
+        <item> 10° Posto</item>
+    </string-array>
+
+    <string name="title_activity_activity_testo">ActivityTesto</string>
+    <string name="title_activity_regole_di_gioco">Regole di gioco</string>
+    <string name="Regole_1">Il gioco consiste nel rispondere ad una serie di domande, una dopo l\&#39;altra, che hanno come iniziale della risposta le 21 lettere dell\&#39;alfabeto italiano.</string>
+    <string name="Regole_2">(1) E\&#39; concesso sia rispondere alla domanda che saltarla (la domanda verra\&#39; saltata provvisoriamente) ;</string>
+    <string name="Regole_3">(2) Il tempo massimo previsto per rispondere a tutte le domande e\&#39; di 150 secondi ;</string>
+    <string name="Regole_4">(3) Una volta terminate le domande (arrivati alla z), si ricomincera\&#39; a fare le domande precedentemente saltate.</string>
+    <string name="Regole_5">Nella versione multiplayer il vincitore sara\' colui che rispondera\' al maggior numero di domande ; in caso di stesso numero di domande risposte correttamente la partita verra\' considerata patta.</string>
+    <string name="title_activity_multiplayer">Multiplayer</string>
+    <string name="attesa">Giocatore 2 preparati...</string>
+    <string name="title_activity_attesa">Attesa</string>
+    <string name="title_activity_multiplayer_2">Multiplayer_2</string>
+    <string name="title_activity_fine_partita_multiplayer">FinePartitaMultiplayer</string>
+    <string name="Vincitore_multiplayer">Vince il giocatore:</string>
+    <string name="title_activity_inizio_multiplayer">Inizio_multiplayer</string>
+    <string name="Giocatore_1_multiplayer">Inizia il Giocatore 1...</string>
+    <string name="Regole_6">AVVERTENZA: Le domande fatte ai due giocatori potrebbero essere diverse. </string>
+
+</resources>

@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="23dp"
+        android:background="#000000"
+        android:text="@string/Nome_bottone_2"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignTop="@+id/button3"
+        android:background="#000000"
+        android:text="REGOLE DI GIOCO"
+        android:textColor="#FFFFFF"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="22dp"
+        android:background="#000000"
+        android:text="@string/Nome_bottone_1"
+        android:textColor="#FFFFFF"
+        tools:ignore="UnknownIdInLayout" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:background="#000000"
+        android:text="MULTIPLAYER"
+        android:textColor="#FFFFFF"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/pupazzodef"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>
